@@ -1,0 +1,77 @@
+name: 🚀 Enhancement
+description: Suggest an improvement to an existing feature
+title: "[Enhancement]: "
+labels: ["enhancement", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your enhancement suggestion! Help us make our features better.
+  - type: checkboxes
+    id: prior-search
+    attributes:
+      label: Have you searched for existing enhancement requests?
+      options:
+        - label: I have searched existing issues
+          required: true
+  - type: input
+    id: enhancement-summary
+    attributes:
+      label: Enhancement Summary
+      description: Brief description of the enhancement
+      placeholder: "e.g., Improve performance of search feature"
+    validations:
+      required: true
+  - type: textarea
+    id: current-behavior
+    attributes:
+      label: Current Behavior
+      description: Describe how the feature currently works
+      placeholder: "Currently, the feature..."
+    validations:
+      required: true
+  - type: textarea
+    id: desired-behavior
+    attributes:
+      label: Desired Behavior
+      description: How should the feature work after this enhancement?
+      placeholder: "After this enhancement, the feature should..."
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+      description: Why is this enhancement valuable?
+      placeholder: "This enhancement would..."
+    validations:
+      required: true
+  - type: textarea
+    id: implementation-ideas
+    attributes:
+      label: Implementation Ideas
+      description: Any ideas for how to implement this enhancement?
+      placeholder: "One approach could be..."
+    validations:
+      required: false
+  - type: checkboxes
+    id: components
+    attributes:
+      label: Affected Components
+      description: Which parts of the system does this relate to?
+      options:
+        - label: Frontend
+        - label: Backend
+        - label: API
+        - label: Documentation
+        - label: Infrastructure
+    validations:
+      required: false
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Screenshots, mockups, references, or other relevant information
+      placeholder: "Include any additional details here..."
+    validations:
+      required: false

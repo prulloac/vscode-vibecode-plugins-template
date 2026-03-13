@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytype/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# TypeScript
+*.ts
+*.tsx
+*.d.ts
+dist/
+build/
+*.tsbuildinfo
+
+# JavaScript
+node_modules/
+*.js
+*.jsx
+dist/
+build/
+.parcel-cache/
+
+# Go
+*.o
+*.a
+*.so
+.DS_Store
+dist/
+bin/
+*.exe
+*.test
+*.prof
+
+# Rust
+/target/
+Cargo.lock
+**/*.rs.bk
+*.pdb
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.env
+.env.local
+.env.*.local
+
+gha-creds-*.json

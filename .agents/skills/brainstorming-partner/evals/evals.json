@@ -1,0 +1,74 @@
+{
+  "evals": [
+    {
+      "id": "feature-brainstorm-1",
+      "name": "Product Feature Ideation",
+      "prompt": "Brainstorm innovative features for a productivity mobile app to help users manage their daily tasks more effectively. The app already has basic task tracking and calendar integration. What new capabilities could differentiate it from competitors?",
+      "category": "feature_ideation",
+      "expected_frameworks": ["SCAMPER", "Six Thinking Hats", "Mind Mapping", "Lateral Thinking", "Divergence-Convergence", "Forced Connections"]
+    },
+    {
+      "id": "problem-solve-1",
+      "name": "Technical Problem Solving",
+      "prompt": "We're experiencing high API latency in our microservices architecture during peak hours. This causes poor user experience. Help me brainstorm potential root causes and solutions to improve response times.",
+      "category": "problem_solving",
+      "expected_frameworks": ["SCAMPER", "Six Thinking Hats", "Mind Mapping", "Lateral Thinking", "Divergence-Convergence", "Forced Connections"]
+    },
+    {
+      "id": "business-strategy-1",
+      "name": "Business Strategy Development",
+      "prompt": "Our SaaS company needs to expand into new markets. We currently serve B2B enterprise clients in North America. What strategic directions should we explore to grow revenue while managing risk?",
+      "category": "strategy",
+      "expected_frameworks": ["SCAMPER", "Six Thinking Hats", "Mind Mapping", "Lateral Thinking", "Divergence-Convergence", "Forced Connections"]
+    },
+    {
+      "id": "ux-improvement-1",
+      "name": "UX Improvement Ideation",
+      "prompt": "Our onboarding flow has a 40% dropout rate. Users report frustration during account setup and initial configuration. Brainstorm ways to improve this experience and reduce drop-off.",
+      "category": "ux_design",
+      "expected_frameworks": ["SCAMPER", "Six Thinking Hats", "Mind Mapping", "Lateral Thinking", "Divergence-Convergence", "Forced Connections"]
+    },
+    {
+      "id": "innovation-1",
+      "name": "Innovation Challenge",
+      "prompt": "What creative ways could we use AI and machine learning in an e-commerce platform to create competitive advantages? Focus on both customer-facing and operational improvements.",
+      "category": "innovation",
+      "expected_frameworks": ["SCAMPER", "Six Thinking Hats", "Mind Mapping", "Lateral Thinking", "Divergence-Convergence", "Forced Connections"]
+    },
+    {
+      "id": "marketing-1",
+      "name": "Marketing Campaign Ideas",
+      "prompt": "We're launching a new developer tool and need fresh marketing campaign ideas. Our target audience is experienced software engineers. How can we stand out and get adoption?",
+      "category": "marketing",
+      "expected_frameworks": ["SCAMPER", "Six Thinking Hats", "Mind Mapping", "Lateral Thinking", "Divergence-Convergence", "Forced Connections"]
+    },
+    {
+      "id": "education-1",
+      "name": "Educational Content Strategy",
+      "prompt": "Brainstorm innovative ways to teach complex programming concepts to beginners. What methods, formats, or approaches could make learning more engaging and effective?",
+      "category": "education",
+      "expected_frameworks": ["SCAMPER", "Six Thinking Hats", "Mind Mapping", "Lateral Thinking", "Divergence-Convergence", "Forced Connections"]
+    },
+    {
+      "id": "sustainability-1",
+      "name": "Sustainability Initiative",
+      "prompt": "Our company wants to reduce its carbon footprint. We operate data centers, offices globally, and have thousands of remote employees. What are innovative approaches we could take?",
+      "category": "sustainability",
+      "expected_frameworks": ["SCAMPER", "Six Thinking Hats", "Mind Mapping", "Lateral Thinking", "Divergence-Convergence", "Forced Connections"]
+    },
+    {
+      "id": "product-pivot-1",
+      "name": "Product Pivot Exploration",
+      "prompt": "We're considering pivoting our analytics platform. Current customers use us for web analytics but we see demand in the mobile analytics space. What new features and capabilities should we explore?",
+      "category": "product_strategy",
+      "expected_frameworks": ["SCAMPER", "Six Thinking Hats", "Mind Mapping", "Lateral Thinking", "Divergence-Convergence", "Forced Connections"]
+    },
+    {
+      "id": "creative-1",
+      "name": "Creative Problem Solving",
+      "prompt": "We need creative ideas for team-building activities and company culture initiatives. We're a distributed team across 5 time zones with 150 employees. What should we try?",
+      "category": "culture",
+      "expected_frameworks": ["SCAMPER", "Six Thinking Hats", "Mind Mapping", "Lateral Thinking", "Divergence-Convergence", "Forced Connections"]
+    }
+  ]
+}
