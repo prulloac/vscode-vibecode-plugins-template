@@ -2,6 +2,11 @@
     "name": "Vibe Coding Workspace",
     "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
     "features": {
+        "ghcr.io/devcontainers/features/common-utils": {
+            "installZsh": true,
+            "installOhMyZsh": true
+        },
+        "ghcr.io/devcontainers-extra/features/tmux-apt-get": {},
         "ghcr.io/devcontainers/features/python:1": {
             "version": "latest"
         },
@@ -27,7 +32,10 @@
                 "GitHub.vscode-pull-request-github",
                 "google.geminicodeassist",
                 "GitHub.vscode-github-actions"
-            ]
+            ],
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "zsh"
+            }
         }
     },
     "postCreateCommand": "pre-commit install",

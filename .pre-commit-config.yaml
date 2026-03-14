@@ -37,22 +37,11 @@ repos:
   #       args: ['--ignore-words-list=crate,nd,sav,ser']
 
   # Commit message validation (non-AI)
-  - repo: local
+  - repo: https://github.com/prulloac/pre-commit-hooks
+    rev: v1.0.0
     hooks:
       - id: validate-commit-msg-conventional
-        name: validate commit message (conventional commits)
-        entry: .pre-commit-hooks/validate-commit-msg-conventional.sh
-        language: script
-        stages: [commit-msg]
-        always_run: true
-
       - id: validate-commit-msg-max
-        name: validate commit message max length (100)
-        entry: .pre-commit-hooks/validate-commit-msg-max.sh
-        args: ['100']
-        language: script
-        stages: [commit-msg]
-        always_run: true
 
 default_language_version:
   python: python3
