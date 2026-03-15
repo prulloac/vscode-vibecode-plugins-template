@@ -11,6 +11,7 @@
         "ghcr.io/devcontainers/features/python:1": {
             "version": "latest"
         },
+        "ghcr.io/prulloac/devcontainer-features/pre-commit:1": {},
         "ghcr.io/devcontainers/features/copilot-cli:1": {},
         "ghcr.io/devcontainers/features/github-cli:1": {},
         "ghcr.io/devcontainers-extra/features/npm-package:1": {
@@ -34,7 +35,6 @@
             }
         }
     },
-    "postCreateCommand": "pre-commit install",
     "remoteEnv": {
         "GITHUB_TOKEN": "${localEnv:GITHUB_TOKEN}"
     }
