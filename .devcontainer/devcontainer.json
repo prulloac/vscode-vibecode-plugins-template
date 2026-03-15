@@ -2,6 +2,7 @@
     "name": "Vibe Coding Workspace",
     "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
     "features": {
+        "ghcr.io/devcontainers-community/npm-features/prettier:latest": {},
         "ghcr.io/devcontainers/features/common-utils": {
             "installZsh": true,
             "installOhMyZsh": true
@@ -18,9 +19,7 @@
         "ghcr.io/devcontainers-extra/features/npm-package:1": {
             "package": "skills"
         },
-        "ghcr.io/devcontainers/features/node:1": {
-            "version": "latest"
-        }
+        "ghcr.io/devcontainers-community/npm-features/typescript:latest": {}
     },
     "customizations": {
         "vscode": {
